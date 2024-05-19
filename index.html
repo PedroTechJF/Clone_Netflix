@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="start_page">
+            <div class="bg_img"></div>
+            <div class="gradient"></div>
+            <header id="main_header">
+                <img id="header_logo" src="imgs/logo.png" width="148" height="40" alt="logo">
+                <div class="btns_area">
+                    <div class="select_area">
+                        <img src="imgs/idioma_icon.png" alt="" width="16" height="16px">
+                        <select name="idioma" id="select_idioma">
+                            <option value="pt-br">Português</option>
+                            <option value="en-us">English</option>
+                        </select>
+                    </div>
+                    <a href="#" id="login_btn" class="btn">Entrar</a>
+                </div>
+            </header>
+            <div class="register_area">
+                <h1>Filmes, séries e muito mais, sem limites</h1>
+                <p>Assista onde quiser. Cancele quando quiser.</p>
+                <h3>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+                <form action="" id="register_form">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <div class="submit_area">
+                        <a href="#" class="btn" id="submit_btn">Vamos lá<img src="imgs/arrow.png" alt=""></a>
+                    </div>
+                </form>
+            </div>
+            <div class="banner">
+                <img src="imgs/popcorn.png" alt="">
+                <div class="text">
+                    <p>A Netflix que você adora por apenas R$ 18,90.</p>
+                    <p>Assine o plano Padrão com anúncios.</p>
+                    <a href="https://www.netflix.com/signup" id="moreBtn">Saiba Mais<img src="imgs/blue_arrow.png" alt=""></a>
+                </div>
+            </div>
+            <div class="watchOnTv devicesDemo">
+                <div class="text">
+                    <h2>Aproveite na TV</h2>
+                    <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</p>
+                </div>
+                <div class="tvVideo">
+                    <img src="imgs/tv.png" alt="">
+                    <video src="videos/tv_video.m4v" autoplay muted loop></video>
+                </div>
+            </div>
+            <div class="splitLine"></div>
+            <div class="watchAnywhere devicesDemo">
+                <div class="macVideo">
+                    <img src="imgs/multi_devices.png" alt="">
+                    <div class="video">
+                        <video src="videos/devices_video.m4v" autoplay muted loop></video>
+                    </div>
+                </div>
+                <div class="text">
+                    <h2>Assista onde quiser</h2>
+                    <p>Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.</p>
+                </div>
+            </div>
+            <div class="splitLine"></div>
+            <div class="childProfiles devicesDemo">
+                <div class="text">
+                    <h2>Crie perfis para crianças</h2>
+                    <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</p>
+                </div>
+                <div class="childImg">
+                    <img src="imgs/childs.png" alt="">
+                </div>
+            </div>
+            <div class="splitLine"></div>
+            <div class="useOffline devicesDemo">
+                <div class="downloadDemo">
+                    <img src="imgs/mobile.jpg" alt="">
+                    <div class="downloadExample">
+                        <img id="cover" src="imgs/stranger_things_cover.png" alt="">
+                        <div class="text">
+                            <p>Stranger Things</p>
+                            <p>Download em andamento...</p>
+                        </div>
+                        <img id="downloadIcon" src="imgs/download-icon.gif" alt="">
+                    </div>
+                </div>
+                <div class="text">
+                    <h2>Baixe séries para assistir offline</h2>
+                    <p>Assista em um avião, trem ou submarino...</p>
+                </div>
+            </div>
+            <div class="splitLine"></div>
+            <div class="common_questions">
+                <p>Perguntas frequentes</p>
+                <div class="perguntas">
+                    <div class="pergunta_resposta">
+                        <div class="pergunta">
+                            <p>O que é a Netflix?<i class="fa-solid fa-plus" id="expand_resposta"></i></p>
+                        </div>
+                        <div class="resposta">
+                            <p>A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.<br><br>Você pode assistir a quantos filmes e séries quiser, quando e onde quiser – tudo por um preço mensal acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.</p>
+                        </div>
+                    </div>
+                    <div class="pergunta_resposta">
+                        <div class="pergunta">
+                            <p>Quanto custa a Netflix?<i class="fa-solid fa-plus" id="expand_resposta"></i></p>
+                        </div>
+                        <div class="resposta">
+                            <p>Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$ 18,90 a R$ 55,90 por mês. Sem contrato nem taxas extras.</p>
+                        </div>
+                    </div>
+                    <div class="pergunta_resposta">
+                        <div class="pergunta">
+                            <p>Onde posso assistir?<i class="fa-solid fa-plus" id="expand_resposta"></i></p>
+                        </div>
+                        <div class="resposta">
+                            <p>Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.<br><br>Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou Windows 10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com a Internet. Leve a Netflix com você para qualquer lugar.</p>
+                        </div>
+                    </div>
+                    <div class="pergunta_resposta">
+                        <div class="pergunta">
+                            <p>Como faço para cancelar?<i class="fa-solid fa-plus" id="expand_resposta"></i></p>
+                        </div>
+                        <div class="resposta">
+                            <p>A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.</p>
+                        </div>
+                    </div>
+                    <div class="pergunta_resposta">
+                        <div class="pergunta">
+                            <p>O que eu posso assistir na Netflix?<i class="fa-solid fa-plus" id="expand_resposta"></i></p>
+                        </div>
+                        <div class="resposta">
+                            <p>A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.</p>
+                        </div>
+                    </div>
+                    <div class="pergunta_resposta">
+                        <div class="pergunta">
+                            <p>A Netflix é adequada para crianças?<i class="fa-solid fa-plus" id="expand_resposta"></i></p>
+                        </div>
+                        <div class="resposta">
+                            <p>A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos responsáveis.<br><br>O recurso de controle parental, incluso nos perfis para crianças e protegido por PIN, permite restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos específicos que você não quer que elas assistam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="register_area register_area_final">
+                <h3>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+                <form action="" id="register_form">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <div class="submit_area">
+                        <a href="#" class="btn" id="submit_btn">Vamos lá<img src="imgs/arrow.png" alt=""></a>
+                    </div>
+                </form>
+            </div>
+            <div class="splitLine"></div>
+            <footer>
+                <p>Dúvidas? Ligue <a href="tel:0800 591 2876" class="paginaExtra">0800 591 2876</a></p>
+                <div class="paginasExtras">
+                    <div class="bloco">
+                        <a href="https://help.netflix.com/support/412" class="paginaExtra">Perguntas Frequentes</a>
+                        <a href="http://ir.netflix.com/" class="paginaExtra">Relações com investidores</a>
+                        <a href="https://www.netflix.com/watch" class="paginaExtra">Formas de assistir</a>
+                        <a href="https://help.netflix.com/legal/corpinfo" class="paginaExtra">Informações corportativas</a>
+                        <a href="https://www.netflix.com/br/browse/genre/839338" class="paginaExtra">Só na Netflix</a>
+                    </div>
+                    <div class="bloco">
+                        <a href="https://help.netflix.com/" class="paginaExtra">Central de Ajuda</a>
+                        <a href="https://jobs.netflix.com/jobs" class="paginaExtra">Carreiras</a>
+                        <a href="https://help.netflix.com/legal/termsofuse" class="paginaExtra">Termos de Uso</a>
+                        <a href="https://help.netflix.com/contactus" class="paginaExtra">Entre em contato</a>
+                    </div>
+                    <div class="bloco">
+                        <a href="https://www.netflix.com/youraccount" class="paginaExtra">Conta</a>
+                        <a href="https://www.netflix.com/redeem" class="paginaExtra">Resgatar cartão pré=pago</a>
+                        <a href="https://help.netflix.com/legal/privacy" class="paginaExtra">Privacidade</a>
+                        <a href="https://fast.com/" class="paginaExtra">Teste de velocidade</a>
+                    </div>
+                    <div class="bloco">
+                        <a href="https://media.netflix.com/" class="paginaExtra">Media Center</a>
+                        <a href="https://www.netflix.com/gift-cards" class="paginaExtra">Comprar cartão pré-pago</a>
+                        <a href="https://www.netflix.com/br/#" class="paginaExtra">Preferências de cookies</a>
+                        <a href="https://help.netflix.com/legal/notices" class="paginaExtra">Avisos legais</a>
+                    </div>
+                </div>
+                <div class="select_area">
+                    <img src="imgs/idioma_icon.png" alt="" width="16" height="16px">
+                    <select name="idioma" id="select_idioma">
+                        <option value="pt-br">Português</option>
+                        <option value="en-us">English</option>
+                    </select>
+                </div>
+                <p>Netflix Brasil</p>
+            </footer>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
